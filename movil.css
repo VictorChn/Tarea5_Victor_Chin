@@ -1,0 +1,64 @@
+@media (max-width: 480px) {
+    .top{
+        width: 100%;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .logo{
+        padding: 10px 20px;
+    }
+    .logo i{
+        display: block;
+    }
+    .logo figure{
+        margin: 0;
+    }
+    .logo img{
+        width: 35%;
+    }
+    .menu{
+        width: 100%;
+        padding-left: 20px;
+        display: none;
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 40px 15px 20px;
+        background-color: var(--GrisMenu);
+        width: 80%;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu hr{
+        display: block;
+        width: 100%;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position-x: 40%;
+        height: 450px;
+        background-size: 336%;
+    }
+    .textohero{
+        padding: 0px 25px 24px 25px;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .textohero h1{
+        font-size: 38px;
+        width: 100%;
+    }
+    .textohero br{
+        display: none;
+    }
+    .tarjetas{
+        flex-direction: column;
+    }
+    footer img{
+        width: 100%;
+    }
+}

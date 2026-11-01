@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="movil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+<body>
+    <header class="top ancho">
+        <div class="logo">
+            <figure>
+                <img src="imagenes/logo_arriba.png" alt="logo">
+            </figure>
+            <i class="fa-solid fa-bars" id="lateral"></i>
+        </div>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#">inicio</a><hr></li>
+                <li><a href="#">Servicios</a><hr></li>
+                <li><a href="#">Nuestros Productos</a><hr></li>
+                <li><a href="#">Contactanos</a><hr></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="textohero ancho">
+            <h1>Cultivamos verduras organicas <br> y las traemos a las traemos <br> a tu mesa</h1>
+        </div>
+    </section>
+    <br><br><br>
+    <section class="servicios">
+        <div class="textoservicios">
+            <h3>Nuestros Servicios</h3>
+            <p>Lo que ofrecemos</p>
+        </div>
+        <br><br>
+        <div class="tarjetas">
+            <article class="tarjetaservicio">
+                <figure>
+                    <img src="imagenes/icono1.png" alt="icono1">
+                </figure>
+                <h4>Ganado Vacuno</h4>
+                <p>Carne de res producida sin ingenieria <br> genetica, uso de radiacion ionizante o lodos <br> de depuradura.</p>
+            </article>
+            <article class="tarjetaservicio">
+                <figure>
+                    <img src="imagenes/icono2.png" alt="icono2">
+                </figure>
+                <h4>Productos Lacteos</h4>
+                <p>Los productos lacteos como la leche, el <br> queso y el yogurt contienen los nutrientes que <br> su cuerpo necesita.</p>
+            </article>
+            <article class="tarjetaservicio">
+                <figure>
+                    <img src="imagenes/icono3.png" alt="icono3">
+                </figure>
+                <h4>Frutas de la huerta</h4>
+                <p>Cubre todo lo que necesitas saber para <br> cultivar y comercializar con exito sus <br> propias frutas organicas de huertas.</p>
+            </article>
+        </div>
+    </section>
+    <br><br><br>
+    <footer>
+        <figure>
+            <img src="imagenes/logo_abajo.png" alt="logo">
+        </figure>
+    </footer>
+
+    <script>
+        $("#lateral").click(function() {
+            $("#menu").slideToggle();
+        });
+    </script>
+</body>
+</html>
